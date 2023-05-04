@@ -1,5 +1,13 @@
 # mapstruct-beanutils-benchmark
 
+This project gives a rough idea of the performance of approaches to transform the same DTO
+* Apache BeanUtils
+* Springframework BeanUtils
+* mapstruct
+
+~Spoiler: mapstruct fastest approach -> apache-beanutils -> spring-beanutils.~
+
+You can customize measurements to suit your needs. Below is the output of the measurement result of the current project
 ```
 C:\java\open\jdk-18.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\lib\idea_rt.jar=65160:C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\work\experimental\mapstruct-beanutils-benchmark\target\classes;C:\Users\golsh\.m2\repository\org\mapstruct\mapstruct\1.5.2.Final\mapstruct-1.5.2.Final.jar;C:\Users\golsh\.m2\repository\org\mapstruct\mapstruct-processor\1.5.2.Final\mapstruct-processor-1.5.2.Final.jar;C:\Users\golsh\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\golsh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\golsh\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\golsh\.m2\repository\org\springframework\spring-beans\6.0.8\spring-beans-6.0.8.jar;C:\Users\golsh\.m2\repository\org\springframework\spring-core\6.0.8\spring-core-6.0.8.jar;C:\Users\golsh\.m2\repository\org\springframework\spring-jcl\6.0.8\spring-jcl-6.0.8.jar;C:\Users\golsh\.m2\repository\org\openjdk\jmh\jmh-core\1.35\jmh-core-1.35.jar;C:\Users\golsh\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\golsh\.m2\repository\org\apache\commons\commons-math3\3.2\commons-math3-3.2.jar;C:\Users\golsh\.m2\repository\org\openjdk\jmh\jmh-generator-annprocess\1.35\jmh-generator-annprocess-1.35.jar org.example.Main
 # JMH version: 1.35
