@@ -1,4 +1,4 @@
-# mapstruct-beanutils-benchmark
+# modelmapper-mapstruct-beanutils-benchmark
 
 This project gives a rough idea of the performance of approaches to transform the same DTO
 * Apache BeanUtils
