@@ -16,6 +16,7 @@
         <commons-beanutils.version>1.9.4</commons-beanutils.version>
         <jmh-core.version>1.35</jmh-core.version>
         <spring-beans.version>6.0.8</spring-beans.version>
+        <modelmapper.version>3.2.0</modelmapper.version>
     </properties>
 
     <dependencies>
@@ -33,6 +34,11 @@
             <groupId>commons-beanutils</groupId>
             <artifactId>commons-beanutils</artifactId>
             <version>${commons-beanutils.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.modelmapper</groupId>
+            <artifactId>modelmapper</artifactId>
+            <version>${modelmapper.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
