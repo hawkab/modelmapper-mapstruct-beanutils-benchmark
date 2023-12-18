@@ -6,7 +6,7 @@ This project gives a rough idea of the performance of approaches to transform th
 * ModelMapper
 * mapstruct
 
-~Spoiler: mapstruct fastest approach -> apache-beanutils -> spring-beanutils.~
+~Spoiler: mapstruct fastest approach -> modelMapper -> apache-beanutils -> spring-beanutils.~
 
 You can customize measurements to suit your needs. Below is the output of the measurement result of the current project
 ```
